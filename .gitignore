@@ -1,1 +1,21 @@
 .env
+
+
+# # Ignore Terraform state files
+# *.tfstate
+# *.tfstate.*
+
+# # Ignore crash log files
+# crash.log
+
+# # Ignore local Terraform directories
+# .terraform/
+
+# # Include the lock file for consistent provider versions
+# !.terraform.lock.hcl
+
+# # Ignore override files as they are user-specific
+# override.tf
+# override.tf.json
+# *_override.tf
+# *_override.tf.json
