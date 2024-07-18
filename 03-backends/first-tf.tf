@@ -34,3 +34,8 @@ resource "aws_s3_bucket" "tf_bucket_name" {
 output "bucket" {
   value = aws_s3_bucket.tf_bucket_name.bucket
 }
+
+
+# COMMANDS TO PASS THE PARTIAL BACKEND
+# terraform init -backend-config=dev.tfbackend
+# terraform init -backend-config=prod.tfbackend
