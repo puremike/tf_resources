@@ -60,6 +60,6 @@ variable "ec2_instance_config_map" {
     condition = alltrue([
       for config in values(var.ec2_instance_config_map) : contains(["ubuntu", "nginx"], config.ami)
     ])
-    error_message = "Only nginx or ubuntu amis are supported."
+    error_message = "Error!! Only nginx or ubuntu amis are supported."
   }
 }
