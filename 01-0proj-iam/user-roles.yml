@@ -1,0 +1,7 @@
+users:
+  - user: john
+    roles: [readonly, developer]
+  - user: jane
+    roles: [admin, auditor]
+  - user: lauro
+    roles: [readonly]

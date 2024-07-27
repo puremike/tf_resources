@@ -1,7 +1,25 @@
 .env
+
+**/.terraform/*
 *.tfstate
 *.tfstate.*
-.terraform/
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore any plan output files
+*.tfplan
+
+# Ignore secrets files
+secrets.tfvars
+
+
 
 # # Include the lock file for consistent provider versions
 # !.terraform.lock.hcl
